@@ -1,0 +1,83 @@
+#title {
+    margin: 1em 0 auto auto;
+    text-align: center;
+  }
+  
+  body {
+    width: 100%;
+      height: 100vh;
+      margin: 0;
+      background-color: #271b32;
+      color: white;
+      font-family: Tahoma;
+      font-size: 26px;
+  }
+  
+  #description {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  form {
+    width: 60vw;
+    max-width: 800px;
+    min-width: 300px;
+    margin: 0 auto;
+    padding: 2em;
+    background: rgba(39, 27, 50, 0.8);
+    border: 6px groove white;
+  }
+  
+  label {
+    display: block;
+    margin: 0.5rem 0;
+  }
+  
+  input, textarea, select {
+    margin: 10px 0 0 0;
+    width: 100%;
+    min-height: 2em;
+    font-size: 22px;
+  }
+  
+  #submit {
+    display: block;
+    width: 100%;
+    margin: auto;
+    height: 2em;
+    font-size: 1.1rem;
+    background-color: rgb(100, 210, 100);
+    min-width: 300px;
+    color: rgba(255, 255, 255, 0.85);
+    font-size: 26px;
+    }
+  
+  .inline {
+    width: unset;
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
+  }
+  
+  fieldset {
+    border: none;
+    padding: 2rem 0;
+  }
+  
+  legend {
+    margin-bottom: -1em;
+  }
+  
+  #feedback {
+    margin-top: 1.5em;
+    margin-bottom: 0;
+  }
+
+  #submit:hover {
+    color: rgb(148, 34, 34);
+    cursor: pointer;
+  }
+
+  footer {
+    text-align: center;
+    margin: 2em 2em 0 0;
+  }

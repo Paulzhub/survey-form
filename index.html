@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Survey Form</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1 id="title">Survey Form</h1>
+    <p id="description"><i>Thank you for taking your time to help improve our platform</i></p>
+    <form id="survey-form" action="https://script.google.com/macros/s/AKfycbwMeV-g5it_rFOco6Eux0K2GR9vCkKRPXDGbKqGphc6jDlPyM1lUNsmO8fY-oPv6TkW/exec" method="post">
+      <fieldset>
+      <label id="name-label" for="name">Name <input name="Name" id="name" type="text" placeholder="Enter your name" required /></label>
+      <label id="email-label" for="email">Email <input name="Email" id="email" type="email" placeholder="Enter your email" required /></label>
+      <label id="number-label" for="number">Age <input name="Age" id="number" type="number" min="0" max="120" placeholder="0-120" /></label>
+      <label id="doing" for="dropdown">What are you currently doing?
+        <select id="dropdown" name="dropdown">
+          <option value="">Select one option</option>
+          <option value="studying">Studying</option>
+          <option value="working">Working</option>
+          <option value="lazying">Lazying</option>
+          <option value="instagramming">Instagramming</option>
+          <option value="k-popping">K-Popping</option>
+        </select>
+        </label>
+      </fieldset>
+      <fieldset>
+      <legend>Your favourite K-pop band:</legend>
+      <label for="bts"><input type="radio" id="bts" name="k-pop" class="inline" value="bts" /> BTS</label> 
+      <label for="blackpink"><input type="radio" id="blackpink" name="k-pop" class="inline" value="blackpink" /> Blackpink</label>
+      <label for="toka-thah"><input type="radio" id="toka-thah" name="k-pop" class="inline" value="toka-thah" /> Toka Thah</label>
+      <label  for="toka-lui"><input type="radio" id="toka-lui" name="k-pop" class="inline" value="toka-lui" /> Toka Lui</label>
+      <label for="exo"><input type="radio" id="exo" name="k-pop" class="inline" value="exo" /> Exo</label>
+      <label for="nct"><input type="radio" id="nct" name="k-pop" class="inline" value="nct" /> NCT</label>
+      <label for="none"><input type="radio" id="none" name="k-pop" class="inline" value="none" /> None of the above</label>
+      </fieldset>
+      <fieldset>
+      <legend>Tick the options you like:</legend>
+      <label for="like-kukis"><input type="checkbox" id="like-kukis" name="like" value="kukis" class="inline" /> Kukis</label>
+      <label for="like-zomis"><input type="checkbox"  id="like-zomis" name="like" value="zomis" class="inline" /> Zomis</label>
+      <label for="like-meiteis"><input type="checkbox" id="like-meiteis" name="like" value="meiteis" class="inline" /> Meiteis</label>
+      <label for="like-mizos"><input type="checkbox" id="like-mizos" name="like" value="mizos" class="inline" /> Mizos</label>
+      <label for="like-nagas"><input type="checkbox" id="like-nagas" name="like" value="nagas" class="inline" /> Nagas</label>
+      <label for="like-humans"><input type="checkbox" id="like-humans" name="like" value="humans" class="inline" /> Humans</label>
+      <label id="feedback" for="feedback">Feedback:
+        <textarea id="feedback" name="feedback"  rows="4" cols="30" placeholder="Write whatever you want here!"></textarea></label>
+      </fieldset>
+      <button id="submit">Submit</button>
+    </form>
+    <footer>@Copyright Surveyz Inc. 2023</footer>
+  </body>
+</html>
